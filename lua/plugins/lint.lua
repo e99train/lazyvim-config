@@ -4,8 +4,8 @@ return {
     opts = {
       events = { "BufWritePost", "BufReadPost", "InsertLeave" },
       linters_by_ft = {
-        javascript = { "standardjs", "editorconfig-checker" },
-        typescript = { "eslint_d", "editorconfig-checker" },
+        javascript = { "standardjs" },
+        typescript = { "eslint_d" },
         svelte = { "eslint_d" },
       },
     },
