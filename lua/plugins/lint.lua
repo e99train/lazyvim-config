@@ -4,9 +4,9 @@ return {
     opts = {
       events = { "BufWritePost", "BufReadPost", "InsertLeave" },
       linters_by_ft = {
-        javascript = { "standardjs" },
-        typescript = { "eslint_d" },
-        svelte = { "eslint_d" },
+        -- javascript = { "standardjs" },
+        -- typescript = { "eslint_d" },
+        -- svelte = { "eslint_d" },
       },
     },
   },
@@ -14,9 +14,9 @@ return {
     "stevearc/conform.nvim",
     opts = {
       formatters_by_ft = {
-        javascript = { { "standardjs" } },
-        typescript = { { "eslint_d" } },
-        svelte = { { "eslint_d" } },
+        -- javascript = { { "standardjs" } },
+        -- typescript = { { "eslint_d" } },
+        -- svelte = { { "eslint_d" } },
       },
     },
   },
